@@ -1,0 +1,14 @@
+:root { --bg:#FBF3E6; --card:#FFFDF8; --ink:#3A2E28; --sub:#8A7B6E; --line:#EADCC6; --accent:#D9623B; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.8; }
+main { max-width:720px; margin:0 auto; padding:40px 20px 80px; }
+header { display:flex; align-items:center; gap:16px; margin-bottom:28px; }
+header img { width:72px; height:72px; border-radius:16px; }
+h1 { font-size:26px; margin:0; }
+.sub { color:var(--sub); font-size:14px; margin:0; }
+h2 { font-size:18px; margin:36px 0 8px; padding-bottom:6px; border-bottom:1px solid var(--line); }
+section, .card { background:var(--card); border-radius:16px; padding:20px 22px; margin:16px 0; }
+a { color:var(--accent); }
+ul { padding-left:1.3em; }
+.button { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:12px 22px; border-radius:999px; font-weight:700; }
+footer { color:var(--sub); font-size:13px; margin-top:40px; }
